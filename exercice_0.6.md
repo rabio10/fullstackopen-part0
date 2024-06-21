@@ -1,4 +1,7 @@
 ```mermaid
+sequenceDiagram
+    participant browser
+    participant server
 
     Note right of browser: When the button on the form is clicked
 
