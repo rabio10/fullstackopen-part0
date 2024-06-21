@@ -24,7 +24,7 @@ sequenceDiagram
     
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: [{ "content": "new note added", "date": "2023-6-21" }, ... ]
+    server-->>browser: [{ "content": "note 1", "date": "2023-6-21" }, ... ]
     deactivate server
 
     Note right of browser: When the button on the form is clicked
