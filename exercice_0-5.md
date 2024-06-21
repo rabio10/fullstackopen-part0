@@ -35,6 +35,7 @@ sequenceDiagram
     deactivate server
     
     Note right of browser: data is sent with an the previous HTTP POST request and the data type is JSON
+    Note right of browser: and the new note is added to the page by the javascript code
 
 
 ```
